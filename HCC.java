@@ -19,10 +19,10 @@ public class HCC {
 
 
 		for(int s=0; s<n; s++){
-            double farness = 0;
+            		double farness = 0;
 			boolean visited[] = new boolean[n];
-            int d[] = new int[n];
-            d[s] = 0;
+            		int d[] = new int[n];
+            		d[s] = 0;
 			Q.add(s);
 
 			while(Q.size()!=0){
