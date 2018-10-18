@@ -3,13 +3,10 @@ import java.util.Queue;
 
 /**
  * HCC.java
- * @author <your name here>
+ * Xiao Yang
  * Georgia Institute of Technology, Fall 2018
  *
  * Heist-Closeness Centrality computation implementation
- * 
- * NOTE: You should change this file to add in your implementation.
- * Feel free to create as many local functions as you want.
  */
 
 public class HCC {
@@ -22,10 +19,10 @@ public class HCC {
 
 
 		for(int s=0; s<n; s++){
-            double farness = 0;
+            		double farness = 0;
 			boolean visited[] = new boolean[n];
-            int d[] = new int[n];
-            d[s] = 0;
+            		int d[] = new int[n];
+            		d[s] = 0;
 			Q.add(s);
 
 			while(Q.size()!=0){
